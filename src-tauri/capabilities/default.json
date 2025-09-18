@@ -1,0 +1,12 @@
+{
+  "identifier": "default",
+  "description": "Default capabilities for the proxy finder",
+  "windows": ["*"],
+  "permissions": [
+    "core:event:default",
+    "core:event:allow-listen",
+    "core:window:allow-request-user-attention",
+    "core:window:allow-set-badge-count",
+    "core:window:allow-set-badge-label"
+  ]
+}
